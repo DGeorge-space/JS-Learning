@@ -4,6 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <!-- We put scripts at the end, we need the html code to be rendered to use the values. this is inefficient which can be seen from dev tools in chrome 
+    
+    However, puting them at the top we execute before the html is rendered. The way to overcome this is to put the defer keyword in the script definitions
+  
+   Doing this we see the parsing and evaluating occur at different times. 
+  
+    async executes as soon as possible - useful for sending to background server. Async could mean download occurs in a different order
+  
+    Defer & async doesnt work for in-line scripts
+  
+  -->
+    <script src="assets/scripts/vendor.js" defer></script>
+    <script src="assets/scripts/app.js" defer></script>
     <title>Basics</title>
     <link
       href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap"
@@ -29,7 +42,7 @@
       <h2 id="current-calculation">0</h2>
       <h2>Result: <span id="current-result">0</span></h2>
     </section>
-    <script src="assets/scripts/vendor.js"></script>
-    <script src="assets/scripts/app.js"></script>
+
+
   </body>
 </html>

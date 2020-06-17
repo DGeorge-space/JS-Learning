@@ -1,0 +1,33 @@
+Writing code efficiently: 
+
+    Productive environment: IDE, editor
+    Auto formatting and shortcuts:
+
+        Key shortcuts:
+            shift+ Alt + a - comment block 
+
+    completion and hints
+    Extensions and settings
+
+Finding Help: 
+
+    MDN is a good resource for js/ web dev 
+    ecma Script 
+
+
+
+Debugging code: 
+
+Attached, you find the source code for this section. The snapshots are also attached to individual lectures throughout this module (i.e. the lectures to which each snapshot belongs).
+
+---
+
+The following resources may be helpful.
+
+    VS Code Docs: https://code.visualstudio.com/docs
+
+    VS Code Keybindings: https://code.visualstudio.com/docs/getstarted/keybindings
+
+    VS Code Extensions Docs: https://code.visualstudio.com/docs/editor/extension-gallery
+
+    Google Chrome DevTools Docs: https://developers.google.com/web/tools/chrome-devtools/
